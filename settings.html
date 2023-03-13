@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="shortcut icon"
+      sizes="16x16 32x32 64x64"
+      href="image/takodachi.jpg"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings - Kokoa Clone</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body id="setting-screens">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <img src="image/lock-rotation.svg" />
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fa-solid fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen setting-screen">
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-bullhorn"></i>
+            <span class="settings__setting-subtitle">Notice</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-flask"></i>
+            <span class="settings__setting-subtitle">Kakao Lab</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <span class="settings__setting-subtitle">Version</span>
+          </div>
+          <div class="settings__setting-column">
+            <span class="settings__setting-info">Latest Version</span>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="settings__setting-division"></div>
+    <footer class="main-screen">
+      <ul class="settings-list settings-list--down">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-lock"></i>
+            <span class="settings__setting-subtitle">Privacy</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-regular fa-bell"></i>
+            <span class="settings__setting-subtitle">Notifications</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-user"></i>
+            <span class="settings__setting-subtitle">Friends</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-regular fa-comment"></i>
+            <span class="settings__setting-subtitle">Chats</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column settings__setting-svg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+              />
+            </svg>
+            <span class="settings__setting-subtitle">Display</span>
+            <div class="badge-sm">N</div>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-brush"></i>
+            <span class="settings__setting-subtitle">Themes</span>
+            <div class="badge-sm">N</div>
+          </div>
+          <div class="settings__setting-column">
+            <span class="settings__setting-info">Default theme</span>
+          </div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fa-solid fa-phone"></i>
+            <span class="settings__setting-subtitle">Call</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+      </ul>
+    </footer>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fa-solid fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__ellipsis__notification dot"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>Your screen is so big</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/cbe6ee1310.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
